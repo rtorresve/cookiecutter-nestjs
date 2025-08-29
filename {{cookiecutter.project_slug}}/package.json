@@ -17,8 +17,10 @@
     "@nestjs/common": "^{{cookiecutter.nestjs_version|default('11.0.0')}}",
     "@nestjs/core": "^{{cookiecutter.nestjs_version|default('11.0.0')}}",
     "@nestjs/platform-express": "^{{cookiecutter.nestjs_version|default('11.0.0')}}",
+    {% if cookiecutter.use_database == "y" %}
     "drizzle-orm": "^0.44.4",
     "pg": "^8.11.3",
+    {% endif %}
     "xstate": "^5.20.2"
   },
   "devDependencies": {

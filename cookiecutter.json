@@ -4,6 +4,7 @@
   "author_name": "Rafael Torres",
   "github_user": "rtorresve",
   "use_example_modules": ["maintenance", "user"],
+  "use_database": "y",
   "database_name": "app_db",
   "database_user": "postgres",
   "database_password": "postgres",
