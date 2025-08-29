@@ -1,0 +1,12 @@
+{
+  "extends": ["biome:recommended"],
+  "linter": {
+    "rules": {
+      "style/useTemplate": "warn",
+      "suspicious/noExplicitAny": "warn"
+    }
+  },
+  "formatter": {
+    "enabled": true
+  }
+}

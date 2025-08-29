@@ -1,0 +1,13 @@
+{
+  "project_name": "My NestJS XState Drizzle App",
+  "project_slug": "my_nestjs_xstate_drizzle_app",
+  "author_name": "[your_name]",
+  "use_example_modules": ["maintenance", "user"],
+  "database_name": "app_db",
+  "database_user": "postgres",
+  "database_password": "postgres",
+  "use_docker": "y",
+  "use_biome": "y",
+  "use_tests": "y",
+  "language": "es"
+}
